@@ -1,7 +1,5 @@
 ## Nueva Estructura NetCore
 
----
-
 ### Estructura del proyecto:
 
 - Dominio : Se crean tablas que representan la DB.
@@ -27,3 +25,24 @@ dotnet new classlib -o Aplicacion
 dotnet new webapi -o DinoApi
 ```
 
+Agregamos los proyectos a la solucion principal:
+```
+dotnet add sln Dominio
+dotnet add sln Persistencia
+dotnet add sln Aplicacion
+dotnet add sln DinoApi
+```
+
+Establecemos dependencias entre nuestros proyectos:
+
+- Aplicacion -> Dominio, Persistencia.
+- DinoApi -> Aplicacion.
+- Persistencia -> Dominio
+
+Para establecer la dependencia debemos ubicarnos en el proyecto al que le estableceremos la referencia y ejecutaremos el siguiente comando:
+
+```
+dotnet add reference ../NombreProyecto/
+```
+
+--- 
