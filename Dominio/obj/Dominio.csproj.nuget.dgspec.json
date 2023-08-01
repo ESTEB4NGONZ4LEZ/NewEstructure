@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {}
+    "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
+        "projectPath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\obj\\",
+        "outputPath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
