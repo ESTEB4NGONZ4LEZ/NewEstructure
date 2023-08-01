@@ -46,3 +46,17 @@ dotnet add reference ../NombreProyecto/
 ```
 
 --- 
+
+Lo que haremos sera instalar los siguientes paquetes:
+
+- Microsoft.EntityFrameworkCore -> Dominio, DinoApi, Persistencia
+- MediatR.Extensions.Microsoft.DependencyInjection -> Dominio
+- AutoMapper.Extensions.Microsoft.DependencyInjection -> Dominio
+- FluentValidation.AspNetCore -> Dominio
+- itext7.pdfhtml -> Dominio
+- Pomelo.EntityFrameworkCore.Tools -> Persistencia
+- Dapper -> Persistencia
+- Newtonsoft_Json -> DinoApi
+- Microsoft.AspNetCore.Authentication.JwtBearer -> DinoApi
+
+Podemos hacer las instalaciones desde la extencion de VsCode NugetGallery o desde la pagina web del mismo.
