@@ -69,6 +69,10 @@ En la carpeta Persistencia crearemos un directiorio llamado Data en donde almace
 
 ---
 
+El siguiente paso va a se crear nuesta clase de context, esta clase la crearemos en Persistencia, le nombre de esta sera el nombre del proyecto seguido de la clase context: NombreProyectoContext
+
+
+
 
 
 
