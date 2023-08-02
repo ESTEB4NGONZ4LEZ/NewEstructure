@@ -1,4 +1,5 @@
 
+using System.Reflection;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,4 +19,12 @@ public class NewEstructureContext : DbContext
     public DbSet<Provincia> Provincias { get; set; }
     public DbSet<Region> Regiones { get; set; }
     public DbSet<TipoPersona> TipoPersonas { get; set; }
+    // ----- Carga Automatica de las Configuraciones -----
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Tabla intermedio entre persona y producto
+        modelBuilder.Entity<PersonaProducto>().HasKey(a => new { a.IdPersona, a.IdProducto });
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+    }
 }
