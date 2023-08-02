@@ -71,6 +71,53 @@ En la carpeta Persistencia crearemos un directiorio llamado Data en donde almace
 
 El siguiente paso va a se crear nuesta clase de context, esta clase la crearemos en Persistencia, le nombre de esta sera el nombre del proyecto seguido de la clase context: NombreProyectoContext
 
+En la clase de Context agregaremos los DbSet de cada una de las entidades
+```
+public DbSet<Clase> Clases { get; set; }
+```
+
+Agregaremos el metodo para la carga automatica de las configuraciones:
+```
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    base.OnModelCreating(modelBuilder);
+    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+}
+```
+
+Luego agregaremos el contexto dentro de nuestro Program y le pasamos nuestro Conection String:
+
+```
+builder.Services.AddDbContext<NewEstructureContext>(options => {
+    string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
+```
+
+Crearemos nuestra Connection String dentro de appsettings.Development.json:
+```
+"ConnectionStrings": {
+"DefaultConnection" : "server=localhost; user=root; password=''; database=nombredb"
+}
+```
+
+---
+
+Ahora crearemos nuestra migracion ejecutando el siguiente comando:
+```
+dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./DinoApi/ --output-dir ./Data/Migrations
+```
+
+Ahora para crear nuestra base de datos ejecutaremos el siguiente comando:
+```
+dotnet ef database update --project ./Persistencia/ --startup-project ./DinoApi/
+```
+
+---
+
+
+
+
 
 
 
