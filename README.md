@@ -56,6 +56,7 @@ Lo que haremos sera instalar los siguientes paquetes:
 - itext7.pdfhtml -> Dominio
 - Pomelo.EntityFrameworkCore.Tools -> Persistencia
 - Dapper -> Persistencia
+- Microsoft.EntityFrameworkCore.Design -> DinoApi
 - Newtonsoft_Json -> DinoApi
 - Microsoft.AspNetCore.Authentication.JwtBearer -> DinoApi
 

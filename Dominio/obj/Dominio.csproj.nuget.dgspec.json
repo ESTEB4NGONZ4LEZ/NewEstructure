@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Esteban\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Esteban\\AppData\\Roaming\\NuGet\\NuGet.Config"

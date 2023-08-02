@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eAW3kA/GeQPFzS2ia/V7/84OJDfpny26KXDmqPMrL/R90buYMXOes+aQ/fH7Nm7HTryBW+kI6uGF0LH5fRkCAg==",
+  "dgSpecHash": "T9oLJYXj+dEoOOHxGGQ5pFtTflCLSC+ZMvkoa0zk3lgWP6VMCOSpt84trNhGZ1DjasxCoCLY5ov724Cco6o4Nw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Esteban\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Esteban\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

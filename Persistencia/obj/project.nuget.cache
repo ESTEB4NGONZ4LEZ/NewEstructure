@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zZJk1Po/9lNt3XWMiRImgr7a32gl6Cmc6PteR+HnAB8QF+et2xHOR05+SU4updk/EmD1egWcVjbnCIChk/4p/g==",
+  "dgSpecHash": "TN7G2kkWFucOG6iJ6D+kZB1niI6OvcppD/bdMIjOUxu/aZWPAEsgGaSGKGZ+A/fL0mYDXSz20jq1p+5vdEP9Cw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\Esteban\\Documents\\NetCore\\NewEstructure\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Esteban\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Esteban\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
