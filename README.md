@@ -61,4 +61,14 @@ Lo que haremos sera instalar los siguientes paquetes:
 
 Podemos hacer las instalaciones desde la extencion de VsCode NugetGallery o desde la pagina web del mismo.
 
-Dentro de la carpeta dominio crearemos todas y cada una de las entidades junto con sus relaciones.
+---
+
+Dentro de la carpeta dominio crearemos todas y cada una de las entidades junto con sus relaciones. 
+
+En la carpeta Persistencia crearemos un directiorio llamado Data en donde almacenaremos todas las Configuraciones de nuestras entidades. Las clases de configuracion heredaran de IEntityTypeConfiguration<>.
+
+---
+
+
+
+
