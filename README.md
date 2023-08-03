@@ -116,6 +116,10 @@ dotnet ef database update --project ./Persistencia/ --startup-project ./DinoApi/
 
 ---
 
+Crearemos nuestra BaseApiController dentro de DinoApi/Controllers nos ayudara a definir el enrutamiento, esta clase heredara del ControllerBase y al mismo tiempo cada Controlador de nuestras entidades heredara de BaseApiController. 
+
+
+
 
 
 

@@ -1,3 +1,5 @@
+using Aplicacion.Paises;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
 
@@ -15,6 +17,8 @@ builder.Services.AddDbContext<NewEstructureContext>(options => {
     string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
+// ----- Agregamos el Servicio para las Consultas con MediaTr -----
+builder.Services.AddMediatR(typeof(Consultas.Manejador).Assembly);
 
 var app = builder.Build();
 

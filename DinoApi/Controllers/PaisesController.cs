@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DinoApi.Controllers;
 
-public class PaisesController : ControllerBase
+public class PaisesController : BaseApiController
 {
     private readonly IMediator mediator;
 
