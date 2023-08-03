@@ -116,7 +116,9 @@ dotnet ef database update --project ./Persistencia/ --startup-project ./DinoApi/
 
 ---
 
-Crearemos nuestra BaseApiController dentro de DinoApi/Controllers nos ayudara a definir el enrutamiento, esta clase heredara del ControllerBase y al mismo tiempo cada Controlador de nuestras entidades heredara de BaseApiController. 
+Crearemos nuestra BaseApiController dentro de DinoApi/Controllers nos ayudara a definir el enrutamiento, esta clase heredara del ControllerBase y al mismo tiempo cada Controlador de nuestras entidades heredara de BaseApiController.
+
+Dentro de Aplicacion crearemos una carpeta por cada entidad de nuestro proyecto, dentro de cada carperta crearemos una clase llamada Consultas, en donde definiremos todas y cada una de las consultas de haremos a nuestra DB.
 
 
 
