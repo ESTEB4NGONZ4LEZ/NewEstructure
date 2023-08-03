@@ -120,6 +120,13 @@ Crearemos nuestra BaseApiController dentro de DinoApi/Controllers nos ayudara a 
 
 Dentro de Aplicacion crearemos una carpeta por cada entidad de nuestro proyecto, dentro de cada carperta crearemos una clase llamada Consultas, en donde definiremos todas y cada una de las consultas de haremos a nuestra DB.
 
+En DinoApi/Controllers empezaremos a crear los controladores para nuestras entidades, en donde definiremos todos y cada uno de los metodos que necesitemos.
+
+Como estamos trabajando con MediatR es importante agregar este servicio a nuestro proyecto, para eso nos dirigimos a nuestro Program y copiaremos la siguiente linea de codigo:
+```
+builder.Services.AddMediatR(typeof(Consultas.Manejador).Assembly);
+```
+
 
 
 
