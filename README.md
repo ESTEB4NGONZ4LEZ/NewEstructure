@@ -27,10 +27,10 @@ dotnet new webapi -o DinoApi
 
 Agregamos los proyectos a la solucion principal:
 ```
-dotnet add sln Dominio
-dotnet add sln Persistencia
-dotnet add sln Aplicacion
-dotnet add sln DinoApi
+dotnet sln add Dominio
+dotnet sln add Persistencia
+dotnet sln add Aplicacion
+dotnet sln add DinoApi
 ```
 
 Establecemos dependencias entre nuestros proyectos:
